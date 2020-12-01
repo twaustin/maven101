@@ -1,4 +1,4 @@
-# 一步一步購建 maven 專案
+# 一步一步構建 maven 專案
 ---
 # 安裝Maven
 ``` bash
