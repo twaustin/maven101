@@ -269,13 +269,13 @@ public class MakeFriends {
 	}
 
 	public String sayNiceToMeetYou() {
-        return ". Nice to meet you!";
+        	return ". Nice to meet you!";
 	}
 
 	public static void main(String[] args) {
-        MakeFriends makeFriends = new MakeFriends();
-        System.out.println(makeFriends.makeFriends());
-    }
+        	MakeFriends makeFriends = new MakeFriends();
+        	System.out.println(makeFriends.makeFriends());
+	}
 
 }
 
@@ -338,18 +338,18 @@ ___
 ## 在 Hello/pom.xml 內新增
 #### 可以看到之後的 HelloFriend && MakeFriends 都有依賴 
 ```		
-        <!-- https://mvnrepository.com/artifact/org.springframework/spring-core -->
-		<dependency>
-			<groupId>org.springframework</groupId>
-			<artifactId>spring-core</artifactId>
-			<version>5.2.5.RELEASE</version>
-		</dependency>
+	<!-- https://mvnrepository.com/artifact/org.springframework/spring-core -->
+	<dependency>
+		<groupId>org.springframework</groupId>
+		<artifactId>spring-core</artifactId>
+		<version>5.2.5.RELEASE</version>
+	</dependency>
         <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
-		<dependency>
-			<groupId>mysql</groupId>
-			<artifactId>mysql-connector-java</artifactId>
-			<version>8.0.19</version>
-		</dependency>
+	<dependency>
+		<groupId>mysql</groupId>
+		<artifactId>mysql-connector-java</artifactId>
+		<version>8.0.19</version>
+	</dependency>
 
 ```
 # 配置聚合 Parent Project
