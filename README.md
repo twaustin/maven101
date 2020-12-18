@@ -172,6 +172,10 @@ ___
             <scope>compile</scope>
         </dependency>
     </dependencies>
+    <properties>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+    </properties>
 </project>
 ```
 ## 在 src/test/java/tw/org/itri 目錄下新增文件 HelloFriend.java
