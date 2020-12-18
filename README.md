@@ -66,11 +66,20 @@ ___
             <scope>test</scope>
         </dependency>
     </dependencies>
-    <maven.compiler.source>1.8</maven.compiler.source>
-    <maven.compiler.target>1.8</maven.compiler.target>
-</project>
+    <properties>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+    </properties>
+    </project>
 ```
 
+## 如果使用的java是11以上，請在pom.xml內加入以下的程式碼
+```xml
+<properties>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
+</properties>
+```
 ___
 
 ## 在 src/main/java/tw/org/itri 目錄下新增文件 Hello.java
@@ -118,13 +127,6 @@ public class HelloTest {
 }
 ```
 
-## 如果使用的java是11以上，請在pom.xml內加入以下的程式碼
-```xml
-<properties>
-    <maven.compiler.source>1.8</maven.compiler.source>
-    <maven.compiler.target>1.8</maven.compiler.target>
-</properties>
-```
 ## 使用 mvn compile 測試
 ## 使用 mvn test 測試
 ## 使用 mvn package 測試
