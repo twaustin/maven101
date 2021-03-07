@@ -70,7 +70,7 @@ ___
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
     </properties>
-    </project>
+</project>
 ```
 
 ## 如果使用的java是11以上，請在pom.xml內加入以下的程式碼
